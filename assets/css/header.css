@@ -1,0 +1,183 @@
+/*.form-blog .form-control{
+        border-radius: 0px !important;
+        border: 1px solid transparent !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .form-blog button{
+        border-radius: 0px;
+    }
+
+    .form-blog #cover_preview{
+        max-height: 360px;
+    }
+    .head-bar {
+        background-color: #03a9f4 !important;
+    }
+    .head-bar a{
+        color: white !important;
+    }
+
+
+    .head-bar a.active{
+        background: white;
+        color: #03a9f4 !important;
+    }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+        margin-left: 0px;
+    }
+
+    body{
+        background-color: rgba(158, 158, 158, 0.15) !important
+    }
+
+    .course-more{
+        display: none;
+    }
+    .form-control{
+        border-radius: 0px !important;
+        border: 1px solid transparent !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .form-control:focus{
+        border-color: #03a9f4 !important;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #81D4FA;
+
+    }
+    .width-50p{
+        width: 50%;
+    }
+    .course-spec-holder .special{
+        background-color: #03a9f4;
+        padding: 6px;
+        color: white;
+    }
+
+    .form-group{
+        background-color: #03a9f4;
+        padding: 2px;
+    }
+    .form-group label{
+        color: white;
+        padding-left: 4px;
+    }
+    .form-course input:focus:invalid, .form-course textarea:focus:invalid {  when a field is considered invalid by the browser 
+        background: #fff url(images/invalid.png) no-repeat 98% center;
+        box-shadow: 0 0 5px #d45252;
+        border-color: #b03535
+    }
+
+    .form-course input:required:valid, .form-course textarea:required:valid {  when a field is considered valid by the browser 
+        background: #fff url(images/valid.png) no-repeat 98% center;
+        box-shadow: 0 0 5px #5cd053;
+        border-color: #28921f;
+    }
+
+    .form-footer{
+        position: fixed;
+        bottom: 0px;
+        background-color: #ffffff;
+        padding: 8px;
+        left: 0px;
+        text-align: right;
+        border: 2px solid #03a9f4;
+        box-shadow: #03a9f4 2px 4px inset;
+    }
+
+    .bootstrap-dialog.type-danger .modal-header {
+        background-color: #ff5722;
+    }
+
+    .bootstrap-dialog .btn-danger {
+        color: #fff;
+        background-color: #ff5722;
+        border-color: #d43f3a;
+    }
+    .bootstrap-dialog.type-warning .modal-header{
+        background: #03a9f4;
+    }
+    .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger{
+        background: #FF5722;
+    }
+
+    .bootstrap-dialog h3{
+        font-size: 18px;
+    }
+
+    .wkdy{
+        background: #9c27b0;
+    }
+    .wked{
+        background: #ff5722;
+    }
+
+    .crsh{
+        background: #0074d9;
+    }
+
+    table button{
+        color: white;
+    }
+    .border-m1{
+        border: 1px solid #03a9f4;
+    }
+    .border-m1:hover, .border-m1:active:focus{
+        border: 1px solid white;
+        color: white;
+        background-color: #03a9f4;
+    }
+    .border-m1:focus{
+
+    }
+    .border-m2{
+        border: 1px solid #03a9f4;
+    }
+    .border-m3{
+        border: 1px solid #03a9f4;
+    }
+
+    ul.nav li.active a{
+        color: #03a9f4 !important;
+        background-color: white;
+    }
+    .nav>li>a:focus, .nav>li>a:hover{
+        color: #03a9f4 !important;
+        background-color: white !important;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border: 1px solid white;
+        border-radius: 1px;
+    }
+
+    thead>tr{
+        background: white;
+        color: #03a9f4;
+    }
+
+    .hr{
+        border-top: 1px solid #9E9E9E !important;
+        margin: 16px !important;
+        border: #ffffff thin ;
+
+    }
+
+    .add-more-holder button{
+        padding: 8px;
+    }
+
+    .last-column .form-group{
+        width: 95%;
+    }
+
+    .last-column div.fl-rt{
+        font-size: 22px;
+        cursor: pointer;
+        color: #F44336;
+    }*/

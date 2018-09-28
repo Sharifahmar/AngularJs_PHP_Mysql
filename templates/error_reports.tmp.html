@@ -1,0 +1,33 @@
+<div header></div>
+<div id="page-content-wrapper">
+<div class="container">
+<h3 class ="well"> Errors Reported </h3>
+
+    <table datatable='ng' class="row-border hover">
+    <!--<table class="table table-responsive" style="margin-top: 40px;">-->
+        <thead>
+            <th>Sr No</th>
+            <th>Error Text</th>     
+            <th>Error Data</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="error in Errors">  
+                <td>{{$index+1}}</td>
+                <td>{{ error.error_text}}</td>
+                <td>
+                    <a href="uploads/error_reporting/{{ error.error_image}}" download >Download </a>
+                </td>
+                <td>{{ error.name }}</td>
+                <td>{{ error.emailId }}</td>
+                <td>
+                <!--<a class="btn btn-primary" href="javascript:" ng-click="getSingle(dept.dept_id)" >Edit</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <a class="btn btn-primary"href="" ng-confirm-click="Are you sure to delete this record ?" confirmed-click ="deleteErrors(error.error_id)">Delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>

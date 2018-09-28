@@ -1,0 +1,37 @@
+<div header></div>
+<div id="page-content-wrapper">
+<div class="container">
+<h3 class ="well"> Forms Requested</h3>
+
+        <table datatable='ng' class="row-border hover" >
+            <thead>
+            <th>Sr No</th>
+            <th>Form Type</th>     
+            <th>Form Name</th>
+            <th>Form Data</th>
+            <th>State</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat="request in Requests">    
+                    <td>{{$index+1}}</td>
+                    <td>{{ request.form_type}}</td>
+                    <td>{{ request.form_name}}</td>
+                    <td>
+                        <a href="uploads/form_request/{{ request.form_image}}" download >Download </a>
+                    </td>
+                    <!--<td>{{ request.form_image}}</td>-->
+                    <td>{{ request.state_name}}</td>
+                    <td>{{ request.name}}</td>
+                    <td>{{ request.emailId}}</td>
+                    <td>
+                    <!--<a class="btn btn-primary" href="javascript:" ng-click="getSingle(dept.dept_id)" >Edit</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+                    <a class="btn btn-primary"href="" ng-confirm-click="Are you sure to delete this record ?" confirmed-click ="deleteRequests(request.form_request_id)">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+</div>

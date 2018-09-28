@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+        .container{             
+           /* float: right; 
+            width:1320px;
+            margin-right: 20px;*/
+        } 
+
+        .formlist-controls{
+            margin: 4px;
+        }
+
+    </style>
+</head>
+<div header></div>
+
+<div class="container" id="list_form_id" >
+
+    <h3 class ="well"> List of Forms </h3>
+
+    <table datatable='ng' class="table table-responsive row-border hover">
+        <thead>
+        <th>Sr No</th>
+        <th>Form Name</th>
+        <!--<th>Form Type</th>
+        <th>State</th>
+        <th>Department</th> -->
+        <th>Published</th>
+        <th>Action</th>
+        <th>Reorder</th>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="formAttr in formAttrs">    
+                <td>{{ $index + 1}}</td>
+                <td>{{ formAttr.form_name}}</td>
+               <!-- <td>{{ formAttr.form_type}}</td>
+                <td>{{ formAttr.state_name}}</td>
+                <td>{{ formAttr.dept_name}}</td> -->
+                <td>{{ formAttr.published}}</td>
+                <td>
+
+                    <select class="form-control" ng-model="language" ng-change="selectedLang(language.language,{{formAttr.id}})" ng-options="option.language for option in options[formAttr.id] track by option.attr_id">
+                        <option value="">-- Select Language--</option>
+                    </select>
+
+                    <div class="formlist-controls btn-group-sm">
+                        <a id="{{'disableEditBtn-' + formAttr.id}}" class="btn btn-sm btn-warning" ng-class="{disabled:disabled}"  href="#/edit_form?id={{language.attr_id}}&language={{languageToAdd}}&mid={{formAttr.id}}">Edit</a>
+                        <a class="btn btn-sm btn-info" href="#/add-form?id={{formAttr.id}}">Add new </a>
+                        <a class="btn btn-sm btn-danger"href="" ng-confirm-click="Are you sure to delete this record ?" confirmed-click ="deleteForm(formAttr.id)">Delete</a>
+                    </div>
+
+                </td>
+                <td>
+                    <a id = "{{'disableOrderBtn-' + formAttr.id}}" class="btn btn-sm btn-warning" ng-class="{disabled:disabled}" href="#/list_instruction?mid={{formAttr.id}}&aid={{language.attr_id}}">Reorder</a>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,65 @@
+
+<style>
+    /* Styles go here */
+
+    .gm-drag-element {
+        opacity: 0.3;
+    }
+
+    .gm-dragging {
+        background-color: lightgrey;
+    }
+
+    .gm-drag-handle {
+        cursor: grab;
+    }
+
+    .panel.gm-dropping {
+        box-shadow: 0px 0px 2px black;
+    }
+    span{
+       cursor : -webkit-grab;
+    }
+    .list-group-item{height: 66px;
+                     margin-bottom: 5px;
+    }
+    .list-group{padding: 20px;}
+    #saveOrder{
+        width: 120px;
+        height: 40px;
+        margin-left: 23px;
+    }
+    #cancelOrder{
+        width: 120px;
+        height: 40px;
+    }
+</style>
+
+<div header></div>
+
+<div class='container'>
+
+    <h4>Reordering</h4>
+    <div class='list-group'> 
+        <div class="list-group-item"
+             ng-repeat="item in orderedItems| orderBy:'order'"
+             gm-draggable='item'
+             gm-on-invalid-drop='reset'
+             gm-on-drop='reorder'
+             gm-on-hover='onHover(item)'>
+            {{$index + 1}}. {{item.value}}
+            <div class='pull-right gm-drag-handle'>
+                <!--<span class='glyphicon glyphicon-move'></span>-->
+                <span class='fa fa-bars fa-3x'</span>
+
+            </div>
+        </div>
+    </div>
+
+    <button id="saveOrder" class="btn btn-warning" type="submit" ng-click="addOrder()">Save</button>
+    <!--<button id="cancelOrder" class="btn btn-warning" type="submit" ng-click="">Cancel</button>-->
+    <a id="cancelOrder" href="#/home" class='btn btn-danger'>Cancel</a>
+
+</div>
+
+

@@ -1,0 +1,183 @@
+[
+    {
+        "id": "1",
+        "name": "Mumbai",
+        "state": "Maharashtra",
+    },
+    {
+        "id": "2",
+        "name": "Ahmedabad",
+        "state": "Gujarat"
+    },
+    {
+        "id": "3",
+        "name": "Hyderabad",
+        "state": "Telangana"
+    },
+    {
+        "id": "4",
+        "name": "Chennai",
+        "state": "Tamil Nadu"
+    },
+    {
+        "id": "5",
+        "name": "Kolkata",
+        "state": "West Bengal"
+    },
+    {
+        "id": "6",
+        "name": "Jaipur",
+        "state": "Rajasthan"
+    },
+    {
+        "id": "7",
+        "name": "Lucknow",
+        "state": "Uttar Pradesh"
+    },
+    {
+        "id": "8",
+        "name": "Patna",
+        "state": "Bihar"
+    },
+    {
+        "id": "9",
+        "name": "Indore",
+        "state": "Madhya Pradesh"
+    },
+    {
+        "id": "10",
+        "name": "Visakhapatnam",
+        "state": "Andhra Pradesh"
+    },
+    {
+        "id": "11",
+        "name": "Ludhiana",
+        "state": "Punjab"
+    },
+    {
+        "id": "12",
+        "name": "Faridabad",
+        "state": "Haryana"
+    },
+    {
+        "id": "13",
+        "name": "Srinagar",
+        "state": "Jammu and Kashmir"
+    },
+    {
+        "id": "14",
+        "name": "Dhanbad",
+        "state": "Jharkhand"
+    },
+    {
+        "id": "15",
+        "name": "Guwahati",
+        "state": "Assam"
+    },
+    {
+        "id": "16",
+        "name": "Chandigarh",
+        "state": "Chandigarh"
+    },
+    {
+        "id": "17",
+        "name": "Hubli-Dharwad",
+        "state": "Karnataka"
+    },
+    {
+        "id": "18",
+        "name": "Bhubaneswar",
+        "state": "Odisha"
+    },
+    {
+        "id": "19",
+        "name": "Thiruvananthapuram",
+        "state": "Kerala"
+    },
+    {
+        "id": "20",
+        "name": "Bhilai Nagar",
+        "state": "Chhattisgarh"
+    },
+    {
+        "id": "21",
+        "name": "Dehradun",
+        "state": "Uttarakhand"
+    },
+    {
+        "id": "22",
+        "name": "Pondicherry",
+        "state": "Puducherry"
+    },
+    {
+        "id": "23",
+        "name": "Agartala",
+        "state": "Tripura"
+    },
+    {
+        "id": "24",
+        "name": "Shillong",
+        "state": "Meghalaya"
+    },
+    {
+        "id": "25",
+        "name": "Imphal",
+        "state": "Manipur"
+    },
+    {
+        "id": "26",
+        "name": "New Delhi",
+        "state": "Delhi"
+    },
+    {
+        "id": "27",
+        "name": "Marmagao",
+        "state": "Goa"
+    },
+    {
+        "id": "28",
+        "name": "Port Blair",
+        "state": "Andaman and Nicobar Islands"
+    },
+    {
+        "id": "29",
+        "name": "Lunglei",
+        "state": "Mizoram"
+    },
+    {
+        "id": "30",
+        "name": "Naharlagun",
+        "state": "Arunachal Pradesh"
+    },
+    {
+        "id": "31",
+        "name": "Palampur",
+        "state": "Himachal Pradesh"
+    },
+    {
+        "id": "32",
+        "name": " ",
+        "state": "Dadra and Nagar Haveli "
+    },
+    {
+        "id": "33",
+        "name": "",
+        "state": "Daman and Diu"
+    },
+    {
+        "id": "34",
+        "name": "",
+        "state": "Lakshadweep"
+    },
+    {
+        "id": "35",
+        "name": "",
+        "state": "Sikkim"
+    },
+    {
+        "id": "36",
+        "name": "",
+        "state": "Nagaland"
+    }
+
+]

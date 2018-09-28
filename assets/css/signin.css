@@ -1,0 +1,369 @@
+body {
+    /*padding-top: 100px!important;*/
+    /*padding-top: 40px;*/
+    /*padding-bottom: 40px;*/
+    /*background-color: #eee;*/
+}
+
+form[name='loginFrm']{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Dashboard Styles*/
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+    border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+}
+.placeholder {
+    margin-bottom: 20px;
+}
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+/* developer */
+.fl-rt{
+    float: right;
+}
+
+.fl-lt{
+    float: left;
+}
+
+.mar-top-10{
+    margin-top: 10px;
+}
+
+.blog-list-card{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 4px;
+    width: 48%;
+    box-shadow: 6px 6px 15px;
+}
+
+@media (max-width: 480px) {
+    .blog-list-card {
+        background-color: whitesmoke;
+        padding: 20px;
+        margin: 4px;
+        width: 100%;
+        box-shadow: 6px 6px 15px;
+    }
+}
+/**/
+/*! ========================================================================
+ * Bootstrap Toggle: bootstrap-toggle.css v2.2.0
+ * http://www.bootstraptoggle.com
+ * ========================================================================
+ * Copyright 2014 Min Hur, The New York Times Company
+ * Licensed under MIT
+ * ======================================================================== */
+
+
+.checkbox label .toggle,
+.checkbox-inline .toggle {
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
+.toggle {
+    position: relative;
+    overflow: hidden;
+}
+.toggle input[type="checkbox"] {
+    display: none;
+}
+.toggle-group {
+    position: absolute;
+    width: 200%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: left 0.35s;
+    -webkit-transition: left 0.35s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.toggle.off .toggle-group {
+    left: -100%;
+}
+.toggle-on {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+.toggle-off {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+.toggle-handle {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+    width: 0px;
+    border-width: 0 1px;
+}
+
+.toggle.btn { min-width: 59px; min-height: 34px; }
+.toggle-on.btn { padding-right: 24px; }
+.toggle-off.btn { padding-left: 24px; }
+
+.toggle.btn-lg { min-width: 79px; min-height: 45px; }
+.toggle-on.btn-lg { padding-right: 31px; }
+.toggle-off.btn-lg { padding-left: 31px; }
+.toggle-handle.btn-lg { width: 40px; }
+
+.toggle.btn-sm { min-width: 50px; min-height: 30px;}
+.toggle-on.btn-sm { padding-right: 20px; }
+.toggle-off.btn-sm { padding-left: 20px; }
+
+.toggle.btn-xs { min-width: 35px; min-height: 22px;}
+.toggle-on.btn-xs { padding-right: 12px; }
+.toggle-off.btn-xs { padding-left: 12px; }
+
+/********************************************************/
+
+/*
+ * bootstrap-tagsinput v0.8.0
+ * 
+ */
+
+.bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 4px;
+    max-width: 100%;
+    line-height: 22px;
+    cursor: text;
+    width: 100%;
+}
+.bootstrap-tagsinput input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0;
+    width: auto;
+    max-width: inherit;
+}
+.bootstrap-tagsinput.form-control input::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+}
+.bootstrap-tagsinput.form-control input:-ms-input-placeholder {
+    color: #777;
+}
+.bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
+    color: #777;
+}
+.bootstrap-tagsinput input:focus {
+    border: none;
+    box-shadow: none;
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+}
+.bootstrap-tagsinput .tag [data-role="remove"] {
+    margin-left: 8px;
+    cursor: pointer;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+    content: "x";
+    padding: 0px 2px;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+.form-group{
+    /*background-color: #ff9800;*/
+    padding: 2px;
+}
+.form-group label{
+    color: black;
+    padding-left: 4px;
+}
+
+.form-control{
+    /*border-radius: 0px !important;*/
+    border: 1px solid transparent !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    border-color: #ff9800 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255, 152, 0);
+
+}
+.btn-primary{
+    border: none !important;
+}
+.btn-omit{
+     background-color: #ff9800 !important;
+    /*background-color: #FF9800;*/
+    border: none;
+}
+
+.btn-omit:hover, .btn-omit:focus, .btn-omit:active{
+    background-color: #FFB74D;
+}
+/*.table{
+    width: 50% !important;
+}*/
